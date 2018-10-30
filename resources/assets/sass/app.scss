@@ -1,9 +1,129 @@
 
-// Fonts
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
-
-// Variables
-@import "variables";
-
 // Bootstrap
-@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+$navbar-color: #30A0CE;
+
+/* universal */
+
+body {
+  padding-top: 60px;
+  background: #73CFF1 url(/images/body_background.jpg) center top no-repeat;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.jumbotron {
+  text-align: center;
+}
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: #777;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+/* header */
+
+.navbar-inverse {
+  background-color: $navbar-color;
+  border-color: $navbar-color;
+}
+
+#logo {
+  display: block;
+  width: 120px;
+  height: 35px;
+  margin-top: 8px;
+  background: url(/images/nav_logo.png) no-repeat;
+  text-indent: -9999em;
+  overflow: hidden;
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+  &:hover {
+    color: #fff;
+  }
+}
+
+.container span {
+  font-size: 16px;
+  color: #fff;
+}
+
+.nav_item {
+  padding-left: 10px;
+}
+
+.nav_item .t {
+  display: block;
+  position: absolute;
+  top: 15px;
+  left: -208px;
+  z-index: 2;
+  width: 20px;
+  height: 20px;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+
+.mentions {
+  background: url(/images/nav_icons.png) no-repeat;
+  background-position: 0 0;
+}
+
+.message {
+  background: url(/images/nav_icons.png) no-repeat;
+  background-position: -20px 0;
+}
+
+.audience {
+  background: url(/images/nav_icons.png) no-repeat;
+  background-position: -40px 0;
+}
+
+/* footer */
+
+.text-center {
+  color: #fff;
+}
+
+.text-center div {
+  font-size: 12px;
+}
+
+.text-center div a {
+  color: #fff;
+}

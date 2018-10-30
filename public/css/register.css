@@ -1,0 +1,137 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, input, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100%;
+	font: 12px/1.75 Tahoma,Arial,sans-serif;
+	color: #333;
+	background: #73CFF1 url(/images/body_background.jpg) center top no-repeat;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+#headWrap {
+	position: relative;
+	z-index: 2;
+	width: 800px;
+	height: 88px;
+	margin: 0 auto;
+}
+
+#logo {
+	position: absolute;
+	top: 28px;
+	width: 212px;
+	height: 46px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+#logo a {
+	display: block;
+	width: 212px;
+	height: 46px;
+	text-indent: -9999em;
+	background: url(/images/b3_120314.png) no-repeat;
+}
+
+#mainWrapper {
+	min-height: 150px;
+	border-radius: 0;
+	background: #fff;
+	position: relative;
+	z-index: 1;
+	width: 800px;
+	margin: 0 auto;
+}
+
+.pageTit {
+	height: 56px;
+	padding: 25px 0 0 53px;
+	background: url(/images/regBg_111108.png) 0 0 no-repeat;
+}
+
+.pageTit h2 {
+	margin-bottom: 3px;
+	line-height: 20px;
+	color: #1E85AE;
+	font-family: "MicroSoft YaHei","SimHei";
+	font-size: 20px;
+}
+
+.pageTit .desc {
+	color: #1E85AE;
+}
+
+.cWrap {
+	width: 720px;
+	margin: 0 auto;
+	padding: 25px 0 25px 0;
+}
+
+.method {
+	padding: 0 0 25px 20px;
+	margin-bottom: 25px;
+	border-bottom: 1px solid #DFDFDF;
+}
+
+.clear {
+	zoom: 1;
+}
+
+.iconQQ {
+	float: left;
+	display: block;
+	width: 40px;
+	height: 40px;
+	margin: 0 28px 0 0;
+	background: url(/images/regBg_111108.png) 0 -83px no-repeat;
+}
+
+.method .inner {
+	overflow: hidden;
+	zoom: 1;
+}
+
+.method .tBar {
+	margin-bottom: 10px;
+}
+
+.method .tBar h2 {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.registerBox {
+	width: 510px;
+}
+
+.fshadow {
+	clear: both;
+	width: 800px;
+	height: 1px;
+	margin: 0 auto -3px;
+	background: url(/images/openShadow.png) no-repeat;
+}
+
+#Copyright {
+	width: 100%;
+	padding: 8px 0 20px;
+	color: #fff;
+	text-align: center;
+	background: none;
+}
+
+.wrapper {
+	width: 800px;
+	margin: 0 auto;
+}
+
+#web_login2 {
+	margin-left: 80px;
+}
